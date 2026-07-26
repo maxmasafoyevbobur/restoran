@@ -326,3 +326,310 @@
     color: #666666;
     font-family: sans-serif;
 }
+
+.reservation-section {
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    margin-top: 10%;
+}
+
+.video-box {
+    flex: 1;
+    position: relative;
+    background-color: #333;
+}
+
+.video-box .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #fea116;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 15px rgba(254, 161, 22, 0.4);
+}
+
+.play-btn span {
+    color: #0f172b;
+    font-size: 28px;
+    margin-left: 4px;
+}
+
+.form-box {
+    flex: 1;
+    background-color: #0f172b;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: #fea116;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background-color: #fea116;
+}
+
+.form-box h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row.full {
+    width: 100%;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    outline: none;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.booking-form textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #fea116;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #e08e10;
+}
+
+.chefs-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10%;
+}
+
+.section-title .subtitle {
+    color: #fea116;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    color: #0f172b;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 220px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #0f172b;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+}
+
+.testimonial-section {
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin-top: 8%;
+}
+
+.testimonial-header .sub-title {
+    color: #ffa500;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-header .sub-title::before,
+.testimonial-header .sub-title::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #ffa500;
+}
+
+.testimonial-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 320px;
+    padding: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    background-color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.card.active {
+    background-color: #ffa500;
+    border-color: #ffa500;
+    color: #ffffff;
+}
+
+.quote-icon {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: bold;
+    color: #ffa500;
+    margin-bottom: 15px;
+}
+
+.card.active .quote-icon {
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.card.active p {
+    color: #ffffff;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client-info h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.card.active .client-info h4 {
+    color: #ffffff;
+}
+
+.client-info span {
+    font-size: 13px;
+    color: #888888;
+}
+
+.card.active .client-info span {
+    color: #f0f0f0;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ffa500;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.dot.active {
+    background-color: #ffa500;
+}
