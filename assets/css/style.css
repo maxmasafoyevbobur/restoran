@@ -238,14 +238,14 @@
     margin-bottom: 10px;
 }
 
-.main-div-7 h1{
+.main-div-7 h1 {
     font-size: 36px;
     font-weight: bold;
     color: rgb(0, 0, 50);
     margin-bottom: 50px;
 }
 
-.x3x3{
+.x3x3 {
     gap: 30px;
     display: flex;
     margin-left: 35%;
@@ -256,12 +256,74 @@
     display: flex;
 }
 
-.x1x1 p{
+.x1x1 p {
     font-weight: 100;
     color: rgb(138, 138, 138);
 }
 
-.x1x1 h3{
+.x1x1 h3 {
     font-weight: bold;
     color: rgb(0, 0, 50);
+}
+
+.menu-section {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.menu-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 40px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.menu-details {
+    flex: 1;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
+.menu-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172b;
+    font-family: sans-serif;
+}
+
+.menu-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fea116;
+    font-family: sans-serif;
+}
+
+.menu-desc {
+    margin: 0;
+    font-size: 13px;
+    font-style: italic;
+    color: #666666;
+    font-family: sans-serif;
 }
