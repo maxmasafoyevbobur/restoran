@@ -644,7 +644,6 @@ body {
     padding: 60px 40px 20px 40px;
 }
 
-/* Yuqori ustunlar stili */
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -656,7 +655,6 @@ body {
     flex: 1;
 }
 
-/* Sarlavha va uning yonidagi chiziq */
 .footer-title {
     color: #fea116;
     font-family: 'Georgia', serif;
@@ -675,7 +673,6 @@ body {
     background-color: #fea116;
 }
 
-/* 1-ustun: Havolalar */
 .footer-links {
     list-style: none;
 }
@@ -696,7 +693,6 @@ body {
     color: #fea116;
 }
 
-/* 2-ustun: Aloqa ma'lumotlari */
 .footer-col p {
     color: #ffffff;
     font-size: 15px;
@@ -730,7 +726,6 @@ body {
     color: #fea116;
 }
 
-/* 3-ustun: Ish vaqti */
 .footer-col .day {
     color: #ffffff;
     font-weight: bold;
